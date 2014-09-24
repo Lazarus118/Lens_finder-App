@@ -1,0 +1,45 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 13, 2014, 12:18:53 PM
+    Author     : lazarus
+*/
+.ui-bar {
+    padding :10px 0px 10px 0px !important;
+    margin :10px 0px 10px 0px !important;
+}
+
+#wrapper form {
+    position : fixed;
+    width    : 100%;
+    left: 0%;
+    top: 6.5%;
+    z-index  : 1;
+}​
+
+.ui-input-search input {
+    min-height: 7em;
+    color:#fff;
+}
+
+.ui-input-search input {
+    min-height: 4em;
+    }
+
+
+.ui-input-text, .ui-input-search {
+    margin: 0px;
+    border-style:none;
+}
+
+/*
+html body .ui-group-theme-b .ui-btn {
+background-color: #333;
+border-color: #1f1f1f;
+color: #fff;
+text-shadow: 0 1px 0 #111;
+}
+*/
