@@ -1,8 +1,17 @@
+$(document).ajaxStart(function() {
+    $("#loading").css("display", "block");
+    $(".category").css("visibility", "hidden");
+});
+$(document).ajaxComplete(function() {
+    $("#loading").css("display", "none");
+    $(".category").css("visibility", "visible");
+});
+
 $(document).on("pageinit", "#info-page", function() {
 
     var products;
     $.ajax({
-        url: "products.json",
+        url: "https://raw.githubusercontent.com/Lazarus118/Lens_finder-App/master/products.json",
         mimeType: "application/json; charset=UTF-8",
         type: "GET",
         async: true,

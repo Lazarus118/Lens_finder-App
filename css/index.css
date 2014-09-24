@@ -27,7 +27,7 @@ and open the template in the editor.
 
 .ui-input-search input {
     min-height: 4em;
-    }
+}
 
 
 .ui-input-text, .ui-input-search {
@@ -43,3 +43,19 @@ color: #fff;
 text-shadow: 0 1px 0 #111;
 }
 */
+
+#loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background-color: rgba(0,0,0,0.8); /*dim the background*/
+}
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40%;
+}
